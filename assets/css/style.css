@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/background.jpg);
+    color: lightgoldenrodyellow;
+    font-family: 'Dosis', sans-serif;
+}
+.jumbotron{
+    background-image: url(../images/crystal-chick.png);
+    color: darkslategray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#instruct{
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid lightgoldenrodyellow;
+    font-size: 1.5em;
+}
+#targetNumber{
+    color: lightcoral;
+}
+#scoreBox{
+    color: lightgreen;
+}
+
+#infoRow{
+    text-align: center;
+}
+.labelBox{
+    text-decoration: underline;
+    line-height: 16px;
+    padding-bottom: 5px;
+}
+.crystalBtn{
+    position: relative;
+    padding: 30px 5px 5px 0px;
+}
+.crystalBtn:focus{
+    outline: none;
+}
+.sideImg{
+    width: 125px;
+    height: 125px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+#buttonRow{
+    margin-left: 60px;
+}
+.toast{
+    margin-left: 15px;
+    width: 300px;
+    height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    background-image: url(../images/crystal-bepsi.png);
+    color: darkslategray;
+}
